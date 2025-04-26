@@ -1,8 +1,7 @@
 # MCP server for Overseerr
+[![smithery badge](https://smithery.ai/badge/@jgarciaga/overseerr-mcp)](https://smithery.ai/server/@jgarciaga/overseerr-mcp)
 
 MCP server to interact with Overseerr API for movie and TV show requests management.
-
-<!-- Badge will be added once published -->
 
 ## Components
 
@@ -129,3 +128,11 @@ You can also watch the server logs with this command:
 
 ```bash
 tail -n 20 -f ~/Library/Logs/Claude/mcp-server-overseerr-mcp.log
+```
+### Installing via Smithery
+
+To install Overseerr MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jgarciaga/overseerr-mcp):
+
+```bash
+npx -y @smithery/cli install @jgarciaga/overseerr-mcp --client claude
+```
